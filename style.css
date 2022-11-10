@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9e0c8;
+}
+
+/* centraliza todo o conteudo */
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* .container img {
+  max-width: 300px;
+} */
+
+.section-topo img {
+  width: 200px;
+  margin: 90px 0 60px;
+  position: relative;
+  left: 180px;
+}
+
+.section-topo a {
+  position: relative;
+  right: 69px;
+  padding: 20px;
+  text-decoration: none;
+  color: #542f0c;
+  font-size: 20px;
+}
+
+
+
+.section-topo a:hover {
+  color: rgb(226, 125, 10);
+
+
+}
+
+
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  border-top: 1px solid #de8e37;
+}
+
+h2 {
+  color: #de8e37
+}
+
+.section-about {
+  width: 106%;
+
+}
+
+.section-products {
+  width: 106%;
+  height: 800px;
+  margin-top: 50px;
+  background-color: #de8e37;
+  color: antiquewhite
+}
+
+.section-products h3,
+h4 {
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.section-products p {
+  font-size: 18px;
+  margin: 8px 168px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.section-products img {
+  width: 50%
+}
+
+.section-contato {
+  margin-top: 15px;
+  line-height: 25px;
+}
